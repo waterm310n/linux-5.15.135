@@ -115,11 +115,14 @@ EXPORT_SYMBOL(high_memory);
  *   as ancient (libc5 based) binaries can segfault. )
  */
 int randomize_va_space __read_mostly =
+0;
+/*
 #ifdef CONFIG_COMPAT_BRK
 					1;
 #else
 					2;
 #endif
+*/
 
 #ifndef arch_faults_on_old_pte
 static inline bool arch_faults_on_old_pte(void)
