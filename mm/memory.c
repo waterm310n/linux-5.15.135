@@ -115,7 +115,7 @@ EXPORT_SYMBOL(high_memory);
  *   as ancient (libc5 based) binaries can segfault. )
  */
 int randomize_va_space __read_mostly =
-0;
+                    0;
 /*
 #ifdef CONFIG_COMPAT_BRK
 					1;
