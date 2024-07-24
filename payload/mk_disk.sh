@@ -10,6 +10,7 @@ sudo mkdir -p ./mnt/home/cloud/study/glibc_top_riscv/lib/
 sudo mkdir -p ./mnt/sbin
 sudo mkdir -p ./mnt/bin
 sudo mkdir -p ./mnt/tmp
+sudo mkdir -p ./mnt/proc
 sudo mkdir -p ./mnt/testcases
 sudo cp ./lib/* ./mnt/lib/
 sudo cp ./lib/* ./mnt/home/cloud/study/glibc_top_riscv/lib/
