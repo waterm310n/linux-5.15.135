@@ -22,6 +22,8 @@ sudo cp ../../dash/src/dash ./mnt/btp/sbin/
 sudo rm ./mnt/sbin/init
 sudo cp ./mnt/btp/sbin/init ./mnt/sbin/init
 
+sudo cp -f ../../ltp/build_riscv64/testcases/bin/mmap[[:digit:]]* ./mnt/testcases/
+
 sudo cp /usr/riscv64-linux-gnu/lib/ld-linux-riscv64-lp64d.so.1 ./mnt/lib/
 sudo cp /usr/riscv64-linux-gnu/lib/libc.so.6 ./mnt/lib/
 sudo cp /usr/riscv64-linux-gnu/lib/libm.so.6 ./mnt/lib/
