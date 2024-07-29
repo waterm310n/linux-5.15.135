@@ -1,4 +1,4 @@
-QEMU=/home/cloud/gitWork/qemu/build/qemu-system-riscv64
+QEMU=../qemu/build/qemu-system-riscv64
 #QEMU=qemu-system-riscv64
 
 if [ $# -ne 1 ]; then
